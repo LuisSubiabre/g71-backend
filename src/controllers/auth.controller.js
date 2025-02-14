@@ -33,10 +33,11 @@ const login = async (req, res) => {
       token,
     });
   } catch (error) {
-    handleError(res, error);
+    if (!res.headersSent) {
+      return handleError(error, req, res); // Asegura que no se haya enviado respuesta antes
+    }
   }
 };
-
 const authController = {
   login,
 };
