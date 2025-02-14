@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/LuisSubiabre/g71-backend/compare/v1.0.0...v1.1.0) (2025-02-14)
+
+
+### Features
+
+* recuperar clave de usuario ([dee773f](https://github.com/LuisSubiabre/g71-backend/commit/dee773f5225cf96bbfa0dbcb37d8d5b1aaf5edaa))
+
 ## 1.0.0 (2025-02-14)
 
 
