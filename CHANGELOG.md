@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.0...v1.1.1) (2025-02-14)
+
+
+### Bug Fixes
+
+* **auth:** corregir error de autenticación para usuario inexistente ([5e6e3fc](https://github.com/LuisSubiabre/g71-backend/commit/5e6e3fc8c9b8d844badbf4ef15527fa705fc0175))
+
 ## [1.1.0](https://github.com/LuisSubiabre/g71-backend/compare/v1.0.0...v1.1.0) (2025-02-14)
 
 
