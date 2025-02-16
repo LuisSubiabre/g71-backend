@@ -45,6 +45,14 @@ app.use("/category", categoryRouter);
 app.use("/reviews/", reviewsRouter);
 app.use("/recover-password/", recoverRouter);
 
+// Sirve archivos estáticos de React
+app.use(express.static(path.join(__dirname, "build")));
+
+// Redirige cualquier ruta no encontrada a index.html (para que React Router lo maneje)
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
 // Error Handling Global
 app.use(handleError);
 
