@@ -3,6 +3,7 @@ import "dotenv/config";
 import cors from "cors";
 import morgan from "morgan";
 import { handleError } from "./src/helpers/errorHandler.js";
+import path from "path";
 
 /* rutas */
 import registerRoute from "./src/routes/register.route.js";
