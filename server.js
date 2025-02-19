@@ -3,6 +3,7 @@ import "dotenv/config";
 import cors from "cors";
 import morgan from "morgan";
 import { handleError } from "./src/helpers/errorHandler.js";
+import path from "path";
 
 /* rutas */
 import registerRoute from "./src/routes/register.route.js";
@@ -44,11 +45,6 @@ app.use("/products", productsRouter);
 app.use("/category", categoryRouter);
 app.use("/reviews/", reviewsRouter);
 app.use("/recover-password/", recoverRouter);
-
-// Redirige cualquier ruta no encontrada a index.html (para que React Router lo maneje)
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
 
 // Error Handling Global
 app.use(handleError);
