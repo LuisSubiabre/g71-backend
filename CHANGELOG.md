@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.1...v1.1.2) (2025-02-19)
+
+
+### Features
+
+* cambio de rol de usuario ([408ef19](https://github.com/LuisSubiabre/g71-backend/commit/408ef19777e96fd19977420823b2fd9156751ea2))
+
+
+### Bug Fixes
+
+* **server:** handle client-side routing for React in production ([8d2788a](https://github.com/LuisSubiabre/g71-backend/commit/8d2788a89ec18d517a449f2a77036c4bd077b8b5))
+
 ### [1.1.1](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.0...v1.1.1) (2025-02-14)
 
 
