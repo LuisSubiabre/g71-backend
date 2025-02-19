@@ -6,6 +6,7 @@ import {
   changeUserStatus,
   deleteUserById,
   updateProfileImage,
+  changeRole,
 } from "../models/users.model.js";
 
 const createResponse = (res, data, message, statusCode = 200) => {
@@ -170,6 +171,29 @@ export const updateProfileImageController = async (req, res, next) => {
       res,
       updatedUser,
       "Imagen de perfil actualizada correctamente"
+    );
+  } catch (error) {
+    next(error);
+  }
+};
+
+// Cambiar el rol de un usuario
+export const changeRoleController = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const { role } = req.body;
+    const updatedRole = await changeRole(id, role);
+    if (!updatedRole) {
+      return res.status(404).json({
+        success: false,
+        error: "Usuario no encontrado para cambiar el rol",
+      });
+    }
+
+    createResponse(
+      res,
+      updatedRole,
+      "Rol del usuario actualizado correctamente"
     );
   } catch (error) {
     next(error);
