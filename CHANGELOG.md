@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.4...v1.1.5) (2025-03-05)
+
+
+### Features
+
+* url_img_profile ([57dee10](https://github.com/LuisSubiabre/g71-backend/commit/57dee10b3857d580e3a1329f76d073e60f009e92))
+
 ### [1.1.4](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.3...v1.1.4) (2025-02-19)
 
 ### [1.1.3](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.2...v1.1.3) (2025-02-19)
