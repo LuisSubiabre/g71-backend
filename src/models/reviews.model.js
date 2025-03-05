@@ -11,7 +11,7 @@ export const getReviewProducBytId = async (product_id) => {
         reviews.rating,
         reviews.comment,
         reviews.create_at,
-        users.username
+        users.username,
         users.url_img_profile
       FROM 
         reviews
