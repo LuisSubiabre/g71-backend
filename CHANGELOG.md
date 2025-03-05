@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.5...v1.1.6) (2025-03-05)
+
+
+### Bug Fixes
+
+* , in sql query ([b565ca3](https://github.com/LuisSubiabre/g71-backend/commit/b565ca3dd13a3d23ff8aabc9e0f637586d0ef7e7))
+
 ### [1.1.5](https://github.com/LuisSubiabre/g71-backend/compare/v1.1.4...v1.1.5) (2025-03-05)
 
 
